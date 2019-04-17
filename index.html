@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Необходимые Мета-теги всегда на первом месте -->
+  <meta charset="UTF-8">
+  <meta name="description" content="Описание сайта">
+  <meta name="keywords" content="Ключевые слова">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Портфолио</title>
+  <link rel="stylesheet" href="src/css/style.css"><!-- CSS -->
+  <link rel="stylesheet" href="src/css/animate.css">
+  <link rel="icon" href="src/img/icon.png"><!-- Иконка -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="src/fontello/css/search.css">
+</head>
+
+<body>
+  <div class="burger">
+    <div class="menu-block">
+      <nav class="menu-nav">
+        <label class="menu-nav_link" for="section1">Home</label>
+        <label class="menu-nav_link" for="section2">About us</label>
+        <label class="menu-nav_link" for="section3">Services</label>
+        <label class="menu-nav_link" for="section4">Portfolio</label>
+        <!-- <label class="menu-nav_link" for="section5">Contacts</label> -->
+      </nav>
+      <a href="#" class="menu-btn">
+        <span></span>
+      </a>
+    </div>
+  </div>
+  <!-- Inputs-->
+  <input type="radio" name="item" checked="checked" id="section1">
+  <input type="radio" name="item" id="section2" />
+  <input type="radio" name="item" id="section3" />
+  <input type="radio" name="item" id="section4" />
+  <!-- <input type="radio" name="item" id="section5" /> -->
+
+  <!-- Navigation-->
+  <nav class="nav">
+    <label class="nav__item" for="section1"></label>
+    <label class="nav__item" for="section2"></label>
+    <label class="nav__item" for="section3"></label>
+    <label class="nav__item" for="section4"></label>
+    <!-- <label class="nav__item" for="section5"></label> -->
+  </nav>
+  <!-- Sections-->
+  <section class="header">
+    <div class="header-home">
+      <div class="header-home_text">
+        home
+      </div>
+    </div>
+    <div class="header-text wow zoomIn" data-wow-delay="0.5s">
+      <div class="header-text_title">
+        Ignatenko Vitaly
+      </div>
+      <div class="line"></div>
+      <div class="header-text_descr">
+        Front-end разработчик
+      </div>
+
+    </div>
+    <div class="header-social wow bounceInRight" data-wow-delay="0.3s">
+      <div class="header-social-img ">
+        <a href="https://vk.com/id473413022" target="_blank"><i class="icon-vkontakte"></i></a>
+      </div>
+      <div class="header-social_img">
+        <a href="mailto:v.ignatenko360@gmail.com" target="_blank"><i class="icon-mail-alt"></i></a>
+      </div>
+      <div class="header-social_img">
+        <a href="skype:v.ignatenko360?call" target="_blank"><i class="icon-skype"></i></a>
+      </div>
+      <div class="header-social_img">
+        <a href="https://www.instagram.com/v_ignatenko360/?hl=ru" target="_blank"><i class="icon-instagram-1"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="about-us ">
+      <div class="about-us_text">
+        about us
+      </div>
+    </div>
+    <div class="about-text">
+      <div class="about-text_title">
+        CREATIVE <span class="color">STUDIO</span>
+      </div>
+      <div class="about-img">
+        <img src="src/img/about/Underline.png" alt="">
+      </div>
+      <div class="about-text_descr">
+        Разработка кроссбраузерных, адаптивных сайтов с применением технологий HTML5, CSS3, jQuery, а также работа с
+        Sass, Gulp, Avocode. Оптимизация и выгрузка сайта на хостинг.
+      </div>
+    </div>
+  </section>
+
+  <section class="servicer">
+    <div class="servicer-serv">
+      <div class="servicer-serv_text">
+        SERVICES
+      </div>
+    </div>
+    <div class="servicer-text">
+      <div class="servicer-text_title">
+        SERVICES
+      </div>
+      <div class="servicer-serv_img">
+        <img src="src/img/servicer/Underline.png" alt=""></div>
+      <div class="servicer-text_descr">
+        <p>HTML5</p>
+        <p>CSS3</p>
+        <p>Adobe Photoshop</p>
+        <p>Avocode</p>
+        <p>Gulp</p>
+        <p>Sass</p>
+        <p>wordpress</p>
+      </div>
+    </div>
+  </section>
+  <section class="portfolio">
+    <div class="portfolio-slider">
+      <div class="portfolio-slider_text">
+        PORTFOLIO
+      </div>
+    </div>
+    <div class="portfolio-block">
+      <div class="portfolio-text">
+        <div class="portfolio-text_title">
+          Portfolio
+        </div>
+        <div class="portfolio-text_img">
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="portfolio-blocks">
+
+        <div class="portfolio-container">
+          <div class="portfolio-container_img">
+            <a href="https://v-ignatenko.github.io/minimo/" target="_blank"><img class="img" src="src/img/waxsons.png" alt="минимо"></a>
+            <div class="portfolio-container_text">
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-container">
+          <div class="portfolio-container_img">
+            <a href="https://v-ignatenko.github.io/snow/" target="_blank"><img class="img" src="src/img/blog.png" alt="snow"></a>
+            <div class="portfolio-container_text">
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-container">
+          <div class="portfolio-container_img">
+            <a href="https://v-ignatenko.github.io/portfolio-2017/" target="_blank"><img class="img" src="src/img/dobr.png" alt="portfolio-2017"></a>
+            <div class="portfolio-container_text">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <section class="footer">
+    <div class="footer-text">
+      <div class="footer-text_contact">
+        Contact
+      </div>
+      <div class="footer-block">
+        <div class="footer-block_text">
+          <div class="footer-block_title">
+            CONTACT
+          </div>
+          <img class="footer-img" src="src/img/footer/Underline.png" alt="">
+        </div>
+        <div class="footer-block_email">
+          <a href="mailto:v.ignatenko360@gmail.com">
+            <span class="address">E-MAIL </span> <br>
+            v.ignatenko360@gmail.com</a>
+        </div>
+        <div class="footer-block_addr">
+          <span class="address">Address </span> <br>
+
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <div class="cover"></div>
+  <script src="src/js/jquery.min.js"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <script src="src/js/burger.js"></script>
+  <script src="src/js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+
+</html>

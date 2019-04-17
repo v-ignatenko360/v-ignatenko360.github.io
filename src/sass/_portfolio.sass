@@ -1,0 +1,64 @@
+.portfolio
+	display: flex
+	&-slider
+		display: flex
+		align-items: center
+		justify-content: center
+		&_text
+			color: #ffffff
+			font-family: 'Roboto', sans-serif
+			font-size: 14px
+			text-transform: uppercase
+			letter-spacing: 1.4px
+			margin-left: 70px
+			margin-top: 90px
+	&-block
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-items: flex-start
+		padding: 40px
+		box-sizing: border-box
+	&-text
+		margin-bottom: 60px
+		&_title
+			color: #f7f7f7
+			font-family: 'Roboto', sans-serif
+			font-size: 42px
+			font-weight: 400
+			line-height: 60.96px
+			text-transform: uppercase
+			letter-spacing: 16.8px
+	&-blocks
+		display: flex
+		align-self: center
+		flex-wrap: wrap	
+	&-container
+		padding: 10px
+		width: 300px
+		&_img 
+			box-shadow: 0 0 15px rgba(0, 0, 0, 1)
+			& img
+				width: 100%
+				height: 158px
+		& a
+			display: block
+			position: relative
+			transition: 400ms ease
+			height: 158px
+		& a:hover
+			&:after 
+				content: ''
+				position: absolute
+				top: 0
+				left: 0
+				width: 100%
+				transition: 400ms ease
+				height: 100%
+				background: rgba(0, 0, 0, 0.5)
+			
+			
+.portfolio-blocks:hover 
+
+
+

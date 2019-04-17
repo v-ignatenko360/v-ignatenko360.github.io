@@ -1,0 +1,99 @@
+input[type='radio']
+  display: none
+  
+  &#section1:checked ~
+    nav > label[for='section1']
+      background-color: white
+    section:nth-of-type(1)
+      z-index: 5
+      top: 0
+      transition: top 0.5s ease-in-out
+      transition-delay: 0s
+      height: 100vh
+  &#section2:checked ~
+    nav > label[for='section2']
+      background-color: #000
+    section:nth-of-type(2)
+      z-index: 4
+      top: 0
+      transition: top 0.5s ease-in-out
+      transition-delay: 0s
+      height: 100vh
+  &#section3:checked ~
+    nav > label[for='section3']
+      background-color: white
+    section:nth-of-type(3)
+      z-index: 3
+      top: 0
+      transition: top 0.5s ease-in-out
+      transition-delay: 0s
+      height: 100vh
+  &#section4:checked ~
+    nav > label[for='section4']
+      background-color: white
+    section:nth-of-type(4)
+      z-index: 2
+      top: 0
+      transition: top 0.5s ease-in-out
+      transition-delay: 0s
+      height: 100vh
+  &#section5:checked ~
+    nav > label[for='section5']
+      background-color: white
+    section:nth-of-type(5)
+      z-index: 1
+      top: 0
+      transition: top 0.5s ease-in-out
+      transition-delay: 0s
+      height: 100vh
+.nav
+  position: fixed
+  z-index: 10
+  left: 42px
+  top: 50%
+  -webkit-transform: translateY(-50%)
+  transform: translateY(-50%)
+
+.nav__item
+  width: 15px
+  height: 15px
+  display: block
+  margin: 12px auto
+  border: solid 2px #9E9E9E
+  border-radius: 50%
+  cursor: pointer
+  &:hover
+    background-color: white
+
+section
+  position: absolute
+  right: 0
+  left: 0
+  transition-delay: 0.5s
+  &:nth-of-type(1)
+    background:  url(../img/header/header-fon.jpg) center no-repeat
+    background-size: cover
+  &:nth-of-type(2)
+    background: url(../img/about/Background.jpg) center no-repeat
+    background-size: cover
+  &:nth-of-type(3)
+    background:  url(../img/servicer/Servicer.jpg) center no-repeat
+    background-size: cover
+  &:nth-of-type(4)
+    background:  url(../img/Portfolio/Portfolio.jpg) center no-repeat
+    background-size: cover
+  &:nth-of-type(5)
+    background:  url(../img/footer/footer-fon.jpg) center no-repeat
+    background-size: cover
+
+
+
+html
+  height: 100%
+
+body
+  height: 100%
+  overflow: hidden
+  color: white
+  font: 100% 'Carter One', cursive
+  margin: 0
